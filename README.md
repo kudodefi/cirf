@@ -45,8 +45,8 @@ openclaw
 You can activate any agent directly by tagging or calling their name:
 
 ```
-# Option A: Full orchestration (recommended)
-You: @SKILL.md Research Arbitrum for potential investment
+# Option A: Full orchestration
+You: Read @SKILL.md and help me research
 AI: [Reads SKILL.md, creates plan, spawns agents, executes]
 
 # Option B: Activate specific agent directly
