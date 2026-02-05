@@ -4,13 +4,14 @@ Interactive crypto deep-research framework with agent-agent and human-agent coll
 
 **Author:** [Kudō](https://x.com/kudodefi)
 
+**For AI Agent: 
+
 ## Requirements
 
 This framework is designed to be used with AI CLI applications:
-- [Claude Code](https://claude.ai/claude-code) (Anthropic)
 - [OpenClaw](https://openclaw.ai/) (Open-source AI assistant)
-- [Codex CLI](https://github.com/openai/codex) (OpenAI)
-- [Kimi CLI](https://kimi.ai/) (Moonshot AI)
+- [Claude Code](https://claude.com/product/claude-code) (Anthropic)
+- [Codex CLI](https://openai.com/codex/) (OpenAI)
 - Or any AI assistant with file read/write capabilities
 
 ## Installation
