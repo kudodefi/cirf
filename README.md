@@ -4,6 +4,14 @@ Interactive crypto deep-research framework with agent-agent and human-agent coll
 
 **Author:** [Kudō](https://x.com/kudodefi)
 
+---
+
+> **For Humans:** This README is for you. Follow the instructions below to set up and use the framework.
+>
+> **For AI Agents:** Read [`SKILL.md`](./SKILL.md) for complete framework instructions and orchestration protocols.
+
+---
+
 ## Requirements
 
 This framework is designed to be used with AI CLI applications:
@@ -32,16 +40,29 @@ openclaw
 # Or your preferred AI CLI
 ```
 
-**Step 2:** Start the framework
+**Step 2:** Activate an agent
+
+You can activate any agent directly by tagging or calling their name:
+
 ```
-You: Read SKILL.md and help me research crypto projects
-AI: [Reads SKILL.md, initializes framework, ready for research goals]
+# Option A: Full orchestration (recommended)
+You: @SKILL.md Research Arbitrum for potential investment
+AI: [Reads SKILL.md, creates plan, spawns agents, executes]
+
+# Option B: Activate specific agent directly
+You: @research-analyst wakeup
+You: @technology-analyst wakeup
+You: @content-creator wakeup
+You: @qa-specialist wakeup
+
+# Option C: Tag agent file
+You: @framework/agents/research-analyst.yaml wakeup
 ```
 
 **Step 3:** Describe your research goal
 ```
-You: Research Arbitrum for potential investment
-AI: [Creates execution plan, spawns agents, executes workflows]
+You: I want to evaluate Aave for investment
+AI: [Creates execution plan, assigns workflows, tracks progress]
 ```
 
 ## Framework Structure
