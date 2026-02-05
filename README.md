@@ -4,8 +4,6 @@ Interactive crypto deep-research framework with agent-agent and human-agent coll
 
 **Author:** [Kudō](https://x.com/kudodefi)
 
-**For AI Agent: 
-
 ## Requirements
 
 This framework is designed to be used with AI CLI applications:
